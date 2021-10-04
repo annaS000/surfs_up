@@ -27,10 +27,12 @@ This section will review the results of the analysis for the weather during the 
 
     * 
 
-## **Summary:**
+---
 
-### **Additional Queries**
+## **Summary**
 
+### **Additional Queries:**
+If W.Avy wanted to look at the weather from specific places in Oahu we can create new quesries from temperature and precipitation data that is grouped by station. With this data we can then create 
 1. June Temperatur and Precipitation by Station
 
         #high low and avg for june temps by station
@@ -55,7 +57,7 @@ This section will review the results of the analysis for the weather during the 
 
 
 #### **Temperature and Precipitation in June by Station:**
-<img src="https://github.com/annaS000/surfs_up/blob/main/pictures/June%20Temps%20by%20Station.png?raw=true" width="500" height="300" >  <img src="https://github.com/annaS000/surfs_up/blob/main/pictures/June%20Precipitation%20by%20Station.png?raw=true" width="500" height="300" >  
+<img src="https://github.com/annaS000/surfs_up/blob/main/pictures/Jun%20Temps%20by%20Station.png?raw=true" width="500" height="300" >  <img src="https://github.com/annaS000/surfs_up/blob/main/pictures/Jun%20Precip%20by%20Station.png?raw=true" width="500" height="300" >  
 > With the information from the additional queries, we can create these two line charts of the min, max, and average temperatures and precipitation by station in Oahu for the month of June.
 
 
@@ -83,5 +85,5 @@ This section will review the results of the analysis for the weather during the 
 
 
 #### **Temperature and Precipitation in December by Station:**
-<img src="https://github.com/annaS000/surfs_up/blob/main/pictures/December%20Temps%20by%20Station.png?raw=true" width="500" height="300" >  <img src="https://github.com/annaS000/surfs_up/blob/main/pictures/December%20Precipitation%20by%20Station.png?raw=true" width="500" height="300" > 
+<img src="https://github.com/annaS000/surfs_up/blob/main/pictures/Dec%20Temps%20by%20Station.png?raw=true" width="500" height="300" >  <img src="https://github.com/annaS000/surfs_up/blob/main/pictures/Dec%20Precip%20by%20Station.png?raw=true" width="500" height="300" > 
  > From the data collected by the additional queries, we can create these two line charts of the min, max, and average temperatures and precipitation by station in Oahu for the month of December.
