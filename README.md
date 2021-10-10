@@ -6,7 +6,7 @@
 ---
 
 ## **Results**
-###### Click here to view my [Challenge code](https://github.com/annaS000/surfs_up/blob/main/SurfsUp_Challenge.ipynb)
+##### Click here to view my [Challenge code](https://github.com/annaS000/surfs_up/blob/main/SurfsUp_Challenge.ipynb)
 
 This section will review the results of the analysis for the weather during the months of June and December.
 
@@ -105,5 +105,7 @@ If W. Avy was interested in studying the weather trends from specific places in 
 
         These bar charts that display information for each station in Oahu are helpful when deciding an exact location on the island. While it is good to see overall statistics, having data on specific areas narrow down the options for where in Oahu our shop will open and depending on how well the store does we can possibly open multiple locations.
 
+---
+
 ## **Citation**
-Click here for [reference]()
+Click here for [reference](https://github.com/annaS000/surfs_up/blob/main/Surfs_Up_Reference.pdf)
