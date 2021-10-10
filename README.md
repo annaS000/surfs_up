@@ -12,15 +12,15 @@ This section will review the results of the analysis for the weather during the 
 
 ---
 
-1. Overall, the temperatures in June were consistently warm, averaging about 75° with little variability
-2. June precipitation
+1. Overall, the temperatures in June were consistently warm, averaging about 75° with little variability. This is weather is perfect for people to go have ice cream which is beneficial to our shop.
+2. The month of June does not see much precipitation the maximum score was a little over 4 but, in comparison to the rest of the summary, this does not seem to happen often and could even be a possible outlier.
     #### **Summary for Temperature and Precipitation in June:**
     <img src="https://github.com/annaS000/surfs_up/blob/main/pictures/junetemp.png?raw=true" width="200" height="300" >  <img src="https://github.com/annaS000/surfs_up/blob/main/pictures/juneprcp.png?raw=true" width="200" height="300" >
     > Here we have two charts of summary statistics in Oahu for Temperature and Precipitation in June
 
 
-3. In December, we can see that the temperature 
-4. Precipitation in dec
+3. In December, we can see that the temperature does cool down slightly but continues to see warmer days which means the ice cream shop would still see business even throughout the winter.
+4. Precipitation in December
     #### **Summary for Temperature and Precipitation in December:**
     <img src="https://github.com/annaS000/surfs_up/blob/main/pictures/dectemp.png?raw=true" width="200" height="300" >  <img src="https://github.com/annaS000/surfs_up/blob/main/pictures/decprcp.png?raw=true" width="200" height="300" >
     >Here we have two charts of summary statistics in Oahu for Temperature and Precipitation in December
@@ -30,10 +30,11 @@ This section will review the results of the analysis for the weather during the 
 ---
 
 ## **Summary**
+After analyzing the data gathered for the temperatures in June and December. We can see that Oahu is a a favorable choice for our surf shop. In order to have consistent business throughout the year for a surf and ice cream shop there must be warm weather year-round. So far, we have seen satisfactory numbers for the Summer and Winter. To provide further reassure to these findings, it is of value to observe temperatures for the Spring and Fall as well. For example:
 
 ### **Additional Queries:**
-If W.Avy wanted to look at the weather from specific places in Oahu we can create new quesries from temperature and precipitation data that is grouped by station. With this data we can then create 
-1. June Temperatur and Precipitation by Station
+If W. Avy was interested in studying the weather trends from specific places in Oahu we can create new queries from temperature and precipitation data that is grouped by station. With this data we can then create visualizations such as bar charts to display these findings.
+1. June Temperature and Precipitation by Station
 
         #high low and avg for june temps by station
         juneStats = session.query(Measurement.station,func.min(Measurement.tobs), 
@@ -57,8 +58,8 @@ If W.Avy wanted to look at the weather from specific places in Oahu we can creat
 
 
 #### **Temperature and Precipitation in June by Station:**
-<img src="https://github.com/annaS000/surfs_up/blob/main/pictures/Jun%20Temps%20by%20Station.png?raw=true" width="500" height="300" >  <img src="https://github.com/annaS000/surfs_up/blob/main/pictures/Jun%20Precip%20by%20Station.png?raw=true" width="500" height="300" >  
-> With the information from the additional queries, we can create these two line charts of the min, max, and average temperatures and precipitation by station in Oahu for the month of June.
+<img src="https://github.com/annaS000/surfs_up/blob/main/pictures/Jun%20Temps%20Station.png?raw=true" width="500" height="300" >  <img src="https://github.com/annaS000/surfs_up/blob/main/pictures/Jun%20Precip%20Station.png?raw=true" width="500" height="300" >  
+> With the information from the additional queries, we can create these two bar charts of the min, max, and average temperatures and precipitation by station in Oahu for the month of June.
 
 
 2. December Temperatur and Precipitation by Station
@@ -85,5 +86,7 @@ If W.Avy wanted to look at the weather from specific places in Oahu we can creat
 
 
 #### **Temperature and Precipitation in December by Station:**
-<img src="https://github.com/annaS000/surfs_up/blob/main/pictures/Dec%20Temps%20by%20Station.png?raw=true" width="500" height="300" >  <img src="https://github.com/annaS000/surfs_up/blob/main/pictures/Dec%20Precip%20by%20Station.png?raw=true" width="500" height="300" > 
- > From the data collected by the additional queries, we can create these two line charts of the min, max, and average temperatures and precipitation by station in Oahu for the month of December.
+<img src="https://github.com/annaS000/surfs_up/blob/main/pictures/Dec%20Temps%20Station.png?raw=true" width="500" height="300" >  <img src="https://github.com/annaS000/surfs_up/blob/main/pictures/Dec%20Precip%20Station.png?raw=true" width="500" height="300" > 
+ > From the data collected by the additional queries, we can create these two bar charts of the min, max, and average temperatures and precipitation by station in Oahu for the month of December. 
+
+ These bar charts that display information for each station in Oahu are helpful when deciding an exact location on the island. While it is good to see overall statistics, having data on specific areas narrow down the 
