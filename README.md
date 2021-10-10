@@ -104,3 +104,6 @@ If W. Avy was interested in studying the weather trends from specific places in 
         > From the data collected by the additional queries, we can create these two bar charts of the min, max, and average temperatures and precipitation by station in Oahu for the month of December. 
 
         These bar charts that display information for each station in Oahu are helpful when deciding an exact location on the island. While it is good to see overall statistics, having data on specific areas narrow down the options for where in Oahu our shop will open and depending on how well the store does we can possibly open multiple locations.
+
+## **Citation**
+Click here for [reference]()
